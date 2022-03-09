@@ -8,5 +8,11 @@ def main():
 
 def message():
     print('This is python version {}'.format(platform.python_version()))
+    print("line 2")
+    if False:               # this is a comment
+        print("Line 3")     # this is another comment
+    else:
+        print("Not True")
+
 
 if __name__ == '__main__': main()
