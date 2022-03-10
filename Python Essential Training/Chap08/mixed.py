@@ -5,12 +5,12 @@
 dlevel = 0 # manage nesting level
 
 def main():
-    r = range(11)
-    l = [ 1, 'two', 3, {'4': 'four' }, 5 ]
-    t = ( 'one', 'two', None, 'four', 'five' )
-    s = set("It's a bird! It's a plane! It's Superman!")
-    d = dict( one = r, two = l, three = s )
-    mixed = [ l, r, s, d, t ]
+    r = range(11)                                           # range
+    l = [ 1, 'two', 3, {'4': 'four' }, 5 ]                  # list
+    t = ( 'one', 'two', None, 'four', 'five' )              # tuple
+    s = set("It's a bird! It's a plane! It's Superman!")    # set
+    d = dict( one = r, two = l, three = s )                 # dictionary
+    mixed = [ l, r, s, d, t ]                               # mix of all of the different structures
     disp(mixed)
 
 def disp(o):
